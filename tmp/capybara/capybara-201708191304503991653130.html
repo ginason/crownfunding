@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Crowdfunder</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" media="screen" href="https://fonts.googleapis.com/css?family=Josefin+Sans:700|Libre+Baskerville" />
+    <link rel="stylesheet" media="all" href="/assets/application-e5dcc4532afe307e60cfbea71ec260bfacc6f3f855624e25562e44ae06a3b28c.css" />
+    <script src="/assets/application-f1563479645c32564d64299ed5f8b88f352937c7dfc0fca0e26759b017d3f36e.js"></script>
+    
+  </head>
+
+  <body>
+    <header class="site-header">
+      <h1 class="logo">Crowdfunder</h1>
+
+      <nav class="site-nav">
+          <a href="/users/new">Register</a> |
+          <a href="/login">Login</a>
+      </nav>
+    </header>
+
+    <main>
+      <h1>Cool Project</h1>
+
+
+<p>A cool project</p>
+<p>Goal: $25,000.00</p>
+
+<p>Fundraising starts: Saturday Aug 19 2017</p>
+<p>Deadline: Monday Sep 18 2017</p>
+<time class="project-days-left-show">
+  <i class="fa fa-clock-o"></i>
+  29 days remaining</time>
+
+<form class="new_pledge" id="new_pledge" action="/projects/5/pledges" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" />
+  <input step="0.01" type="number" name="pledge[dollar_amount]" id="pledge_dollar_amount" />
+  <input type="submit" name="commit" value="Pledge" data-disable-with="Pledge" />
+</form>
+<h2>Rewards</h2>
+
+<a href="/projects/5/rewards/new">Add new reward</a>
+
+
+<h2>Pledge</h2>
+<h2>Total amount pledged: $0</h2>
+<h2>You have backed this project 0 times.</h2>
+
+<h2>Rewards Claimed</h2>
+
+
+<h3>Comments</h3>
+
+<form class="new_comment" id="new_comment" action="/projects/5/comments" accept-charset="UTF-8" method="post"><input name="utf8" type="hidden" value="&#x2713;" />
+<label for="comment_comment">Comment</label>
+<textarea name="comment[comment]" id="comment_comment">
+</textarea>
+<input type="submit" name="commit" value="Create Comment" data-disable-with="Create Comment" />
+</form>
+<hr>
+
+nice project!
+<hr>
+
+<hr>
+
+    </main>
+  </body>
+</html>

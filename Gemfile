@@ -13,8 +13,11 @@ gem 'uglifier', '>= 1.3.0'
 gem 'jquery-rails'
 gem 'jbuilder', '~> 2.5'
 
-# Database
-gem 'pg'
+group :production do
+  # Database
+  gem 'pg'
+end
+
 
 # Authentication and authorization
 gem 'bcrypt', '~> 3.1.7'
@@ -31,6 +34,7 @@ end
 
 group :development do
   # Access an IRB console on exception pages or by using <%= console %> anywhere in the code.
+  gem 'sqlite3'
   gem 'web-console'
   gem 'listen', '~> 3.0.5'
   gem 'spring'
